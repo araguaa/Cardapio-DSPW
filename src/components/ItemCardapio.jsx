@@ -28,6 +28,21 @@ function ItemCardapio(props) {
       >
         {props.preco}
       </p>
+       <button
+        onClick={props.adicionarPedido}
+        style={{
+          marginTop: "10px",
+          padding: "10px 15px",
+          border: "none",
+          borderRadius: "8px",
+          backgroundColor: "#d62828",
+          color: "#fff",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+      >
+        Adicionar Pedido
+      </button>
     </div>
   );
 }
